@@ -40,8 +40,10 @@ main{
 
 .popular_con{
     position: relative;
-    left: 33rem;
-    top: -13px;
+    top: -20px;
+    display: flex;
+    justify-content: end;
+
 }
 
 .most_popular{
@@ -105,10 +107,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 0px 20px;
-}
-
-.select_size{
-    width: 3vw;
 }
 
 .color_comp{
@@ -182,20 +180,20 @@ main{
     font-size: small;
 }
 
-@media screen and (max-width: 639px) {
-
-    main{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 20px 10px;
-    }
+@media screen and (max-width: 775px) {
 
     .heading{
-        display: flex;
-        align-items: center;
         width: 80%;
+    }
+    
+    .head{
+        font-size: x-large;
+        width: 65vw;
+    }
+
+    .rule{
+        margin: 0px 5px;
+        width: 75%;
     }
 
     .container1{
@@ -208,12 +206,72 @@ main{
         margin: 10px 0px;
     }
 
+    .popular_con{
+        top: -20px;
+    }
 
+    .most_popular{
+        font-size: small;
+    }
+    
+    .unit{
+        font-size: medium;
+    }
+
+    .unit span{
+        font-size: small;
+    }
+
+    .price{
+        font-size: larger;
+    }
+
+    .old_price{
+        font-size: medium;
+    }
+
+    .free_delivery{
+        width: 75%;
+    }
+    
+    .free{
+        font-size: medium;
+    }
+    
+    .container2 span{
+        font-size: large;
+        font-weight: 200;
+    }
+    
+    .btn_container{
+        width: 70%;
+    }
+    
+    .pumper{
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 689px) {
+
+    .heading{
+        width: 80%;
+    }
+
+    .container1{
+        width: 65vw;
+        border: 1px;
+        border-style: solid;
+        border-color: gray;
+        padding: 10px 30px;
+        padding: 20px;
+        margin: 10px 0px;
+    }
     
     .head{
-        color: #f85050;
-        font-size: medium;
-        flex-wrap: nowrap;
+        font-size: larger;
+        width: 50vw;
     }
 
     .rule{
@@ -222,8 +280,7 @@ main{
     }
 
     .popular_con{
-        left: 19rem;
-        top: -12px;
+        top: -20px;
     }
 
     .most_popular{
@@ -290,8 +347,7 @@ main{
     }
 
     .popular_con{
-        left: 16rem;
-        top: -12px;
+        top: -20px;
     }
 
     .most_popular{
@@ -363,8 +419,7 @@ main{
     }
 
 .popular_con{
-    left: 12rem;
-    top: -4px;
+    top: -10px;
 }
 
 .most_popular{
@@ -373,7 +428,7 @@ main{
     
 }
 
-@media screen and (max-width: 386px) {
+@media screen and (max-width: 364px) {
     
     .head{
         width: 45vw;
@@ -384,7 +439,6 @@ main{
     }
 
     .popular_con{
-        left: 10rem;
         top: -7px;
     }
 
@@ -408,4 +462,40 @@ main{
         font-size: small;
     }
     
+}
+
+@media screen and (max-width: 386px) {
+
+    .head{
+        width: 45vw;
+    }
+
+    .container1{
+        width: 65vw;
+    }
+
+    .popular_con{
+        top: -7px;
+    }
+
+    .most_popular{
+        padding: 7px 5px;
+    }
+
+    .unit{
+        font-size: medium;
+    }
+
+    .unit span{
+        font-size: smaller;
+    }
+
+    .price{
+        font-size: medium;
+    }
+
+    .old_price{
+        font-size: small;
+    }
+
 }
