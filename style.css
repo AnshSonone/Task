@@ -499,3 +499,44 @@ main{
     }
 
 }
+
+@media screen and (max-width: 363px) {
+
+    .head{
+        width: 45vw;
+    }
+
+    .container1{
+        width: 65vw;
+    }
+
+    .popular_con{
+        top: -10px;
+    }
+
+    .most_popular{
+        font-size: smaller;
+        padding: 7px 5px;
+    }
+
+    .unit{
+        font-size: small;
+    }
+
+    .unit span{
+        font-size: smaller;
+    }
+
+    .discount{
+        font-size: smaller;
+    }
+
+    .price{
+        font-size: small;
+    }
+
+    .old_price{
+        font-size: x-small;
+    }
+
+}
