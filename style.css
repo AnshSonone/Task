@@ -19,7 +19,8 @@ main{
 }
 
  .head{
-    width: 50vw;
+    font-size: xx-large;
+    width: 55vw;
     color: #f85050;
 }
 
@@ -328,7 +329,6 @@ main{
     .head{
         color: #f85050;
         font-size: small;
-        flex-wrap: nowrap;
     }
 
     .rule{
@@ -393,14 +393,14 @@ main{
 
 }
 
-@media screen and (max-width: 453px) {
+@media screen and (max-width: 460px) {
 
     .heading{
         width: 80%;
     }
     
     .head{
-        width: 37vw;
+        width: 40svw;
         font-size: small;   
     }
 
@@ -428,10 +428,10 @@ main{
     
 }
 
-@media screen and (max-width: 364px) {
+@media screen and (max-width: 413px) {
     
     .head{
-        width: 45vw;
+        width: 20vw;
     }
 
     .container1{
@@ -464,46 +464,10 @@ main{
     
 }
 
-@media screen and (max-width: 386px) {
+@media screen and (max-width: 389px) {
 
     .head{
-        width: 45vw;
-    }
-
-    .container1{
-        width: 65vw;
-    }
-
-    .popular_con{
-        top: -7px;
-    }
-
-    .most_popular{
-        padding: 7px 5px;
-    }
-
-    .unit{
-        font-size: medium;
-    }
-
-    .unit span{
-        font-size: smaller;
-    }
-
-    .price{
-        font-size: medium;
-    }
-
-    .old_price{
-        font-size: small;
-    }
-
-}
-
-@media screen and (max-width: 363px) {
-
-    .head{
-        width: 45vw;
+        width: 25vw;
     }
 
     .container1{
@@ -537,6 +501,69 @@ main{
 
     .old_price{
         font-size: x-small;
+    }
+
+}
+
+@media screen and (max-width: 315px) {
+
+    .head{
+        width: 70vw;
+    }
+
+    .container1{
+        width: 65vw;
+    }
+
+    .popular_con{
+        top: -7px;
+    }
+
+    .most_popular{
+        padding: 7px 5px;
+    }
+
+    .unit{
+        font-size: medium;
+    }
+
+    .unit span{
+        font-size: smaller;
+    }
+
+    .discount{
+        font-size: x-small;
+        padding: 3px;
+    }
+
+    .size_color{
+        margin: 0px 10px;
+        display: none;
+    }
+
+    .change{
+        display: flex;
+    }
+    
+    .active{
+        border: 2px;
+        border-color: #f85050;
+        border-style: solid;
+    }
+    
+    .size_comp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 20px;
+    }
+
+    .price{
+        font-size: medium;
+    }
+
+    .old_price{
+        font-size: small;
     }
 
 }
